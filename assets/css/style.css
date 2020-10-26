@@ -1,0 +1,30 @@
+body {
+    margin:0;
+}
+#we-change {
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background:rosybrown;
+}
+
+#form {
+    z-index: 99;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:3rem;
+    text-align: center;
+    background:white;
+}
+
+input{
+ padding:1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    background:rgb(100, 149, 237);
+    border-radius: 5px;
+}
